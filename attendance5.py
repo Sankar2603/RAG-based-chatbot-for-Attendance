@@ -10,15 +10,15 @@ import re
 import random
 
 DB_CONFIG = {
-    "user": "dbAhhfficehr",
-    "password": "plesk2024##",
-    "host": "SG2NWPLS19SQL-v09.mssql.shr.prod.sin2.secureserver.net",
+    "user": "username",
+    "password": "Password",
+    "host": "Host",
     "port": "1433",
-    "database": "dbAhhfficehr",
+    "database": "database",
     "driver": "ODBC Driver 17 for SQL Server"
 }
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "Your api key"
 
 system_prefix = """
 You are a SQL expert. Generate the most efficient, direct SQL query in as few steps as possible. Avoid unnecessary reasoning. 
